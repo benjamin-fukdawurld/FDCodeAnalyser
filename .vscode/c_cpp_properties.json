@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../thirdparty/llvm/llvm/include/**",
+                "${workspaceFolder}/../thirdparty/llvm/clang/include/**",
+                "${workspaceFolder}/../thirdparty/llvm/build/include/**",
+                "${workspaceFolder}/../thirdparty/llvm/build/tools/clang/include/**",
+                "${workspaceFolder}/../thirdparty/llvm/clang/lib/Headers/**"
+            ],
+            "defines": [],
+            "compilerPath": "${workspaceFolder}/../thirdparty/llvm/build/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": ".vscode/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

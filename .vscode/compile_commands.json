@@ -1,0 +1,12 @@
+[
+    {
+        "directory": "/home/ben/dev/FanatikDevelopment/FDCodeAnalyser",
+        "command": "../thirdparty/llvm/build/bin/clang++ -c -std=c++17  -I/home/ben/Bureau/dev/FanatikDevelopment/thirdparty/llvm/llvm/include -I/home/ben/Bureau/dev/FanatikDevelopment/thirdparty/llvm/build/include -std=c++11    -D_GNU_SOURCE -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fpic  -g   -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -Iinclude -I/home/ben/Bureau/dev/FanatikDevelopment/thirdparty/llvm/llvm/include -I../thirdparty/llvm/clang/include -I../thirdparty/llvm/build/tools/clang/include -o /home/ben/Bureau/dev/FanatikDevelopment/FDCodeAnalyser/build/obj/matchers.o src/matchers.cpp",
+        "file": "src/matchers.cpp"
+    },
+    {
+        "directory": "/home/ben/dev/FanatikDevelopment/FDCodeAnalyser",
+        "command": "../thirdparty/llvm/build/bin/clang++ -c -std=c++17  -I/home/ben/Bureau/dev/FanatikDevelopment/thirdparty/llvm/llvm/include -I/home/ben/Bureau/dev/FanatikDevelopment/thirdparty/llvm/build/include -std=c++11    -D_GNU_SOURCE -D_DEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fpic  -g   -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -Iinclude -I/home/ben/Bureau/dev/FanatikDevelopment/thirdparty/llvm/llvm/include -I../thirdparty/llvm/clang/include -I../thirdparty/llvm/build/tools/clang/include -o /home/ben/Bureau/dev/FanatikDevelopment/FDCodeAnalyser/build/obj/FDCodeAnalyser_main.o src/main.cpp",
+        "file": "src/main.cpp"
+    }
+]
